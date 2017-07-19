@@ -3,4 +3,5 @@ module.exports = function main(a) {
   for(let i=0;i<a.length;i++){
       ans+=a[i]-'0';
   }
+  return ans;
 };
